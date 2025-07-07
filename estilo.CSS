@@ -1,0 +1,119 @@
+/* Reset e Box Model */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Cartão Principal */
+.card {
+  background-color: #fff;
+  max-width: 400px;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+}
+
+/* Cabeçalho com foto e título */
+.card-header {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
+.card-header h1 {
+  font-size: 1.5rem;
+  color: #2c3e50;
+}
+
+.profession {
+  font-size: 1rem;
+  color: #7f8c8d;
+}
+
+/* Seção Sobre */
+.about {
+  margin-bottom: 16px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* Seção de Contato */
+.contact h2,
+.social h2 {
+  font-size: 1.1rem;
+  color: #34495e;
+  margin-bottom: 8px;
+}
+
+.contact ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.contact li {
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  font-size: 0.95rem;
+}
+
+.contact i {
+  margin-right: 8px;
+  color: #2980b9;
+}
+
+/* Rodapé com Redes Sociais */
+.social {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.social a {
+  margin: 0 8px;
+  font-size: 1.5rem;
+  color: #2980b9;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+/* Efeito Hover */
+.social a:hover {
+  color: #1abc9c;
+}
+
+/* Responsividade Básica */
+@media (max-width: 500px) {
+  .card {
+    padding: 16px;
+  }
+
+  .card-header h1 {
+    font-size: 1.3rem;
+  }
+
+  .profile-img {
+    width: 100px;
+    height: 100px;
+  }
+}
