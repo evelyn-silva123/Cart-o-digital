@@ -5,23 +5,101 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Cartão de Visita Digital</title>
-  <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .card {
+      background-color: #fff;
+      width: 320px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      overflow: hidden;
+      text-align: center;
+      padding: 20px;
+    }
+    .card-header {
+      margin-bottom: 16px;
+    }
+    .profile-img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 12px;
+      border: 3px solid #EC407A;
+    }
+    h1 {
+      font-size: 1.5rem;
+      color: #AD1457;
+    }
+    .profession {
+      font-size: 1rem;
+      color: #7f8c8d;
+    }
+    .about {
+      font-size: 0.95rem;
+      margin-bottom: 16px;
+      color: #333;
+    }
+    .contact h2,
+    .social h2 {
+      font-size: 1.1rem;
+      color: #34495e;
+      margin-bottom: 8px;
+    }
+    .contact ul {
+      list-style: none;
+      padding: 0;
+    }
+    .contact li {
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .contact i {
+      margin-right: 8px;
+      color: #EC407A;
+    }
+    .social {
+      margin-top: 16px;
+    }
+    .social a {
+      margin: 0 8px;
+      font-size: 1.5rem;
+      color: #EC407A;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+    .social a:hover {
+      color: #AD1457;
+    }
+  </style>
 </head>
 <body>
   <main class="card">
     <header class="card-header">
-      <img src="https://via.placeholder.com/150" alt="Foto de Perfil" class="profile-img">
-      <h1>Evelyn Dos santos silva</h1>
-      <p class="profession">Estudante de informatica</p>
+      <img src="evelyn.jpg" alt="Foto de Evelyn" class="profile-img">
+      <h1>Evelyn Dos Santos Silva</h1>
+      <p class="profession">Estudante de Informática</p>
     </header>
-
     <section class="about">
       <p>
         Este é um cartão de visita digital criado como atividade da disciplina de FTW.
       </p>
     </section>
-
     <section class="contact">
       <h2>Contato</h2>
       <ul>
@@ -30,13 +108,12 @@
         <li><i class="fas fa-map-marker-alt"></i> Sua Cidade - Estado</li>
       </ul>
     </section>
-
     <footer class="social">
       <h2>Perfis Profissionais</h2>
-      <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
-      <a href="https://behance.net" target="_blank"><i class="fab fa-behance"></i></a>
-      <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+     <a href="https://instagram.com/evelyn_santz_" target="_blank"><i class="fab fa-instagram"></i></a>
     </footer>
   </main>
 </body>
+</html>
+
 </html>
